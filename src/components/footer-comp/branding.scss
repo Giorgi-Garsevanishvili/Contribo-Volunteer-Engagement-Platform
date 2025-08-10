@@ -1,0 +1,88 @@
+/* Branding and Footer Styling */
+
+      * {
+        -webkit-user-select: none; /* Disable text selection in webkit browsers */
+        -moz-user-select: none; /* Disable text selection in Firefox */
+        -ms-user-select: none; /* Disable text selection in IE/Edge */
+        user-select: none; /* Disable text selection in modern browsers */
+      }
+
+      .branding-container {
+        position: relative;
+        text-align: center;
+        margin-top: 1rem;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      }
+
+      .brand-name {
+        font-family: "Orbitron", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #34495e;
+        margin: 0;
+        position: relative;
+        display: inline-block;
+        user-select: none;
+      }
+
+      .dev-link {
+        text-decoration: none;
+        color: inherit;
+        user-select: none;
+      }
+
+      .tm-logo {
+        font-size: 0.6rem;
+        position: absolute;
+        top: -3px;
+        right: -8px;
+        font-weight: bold;
+        color: #2980b9;
+      }
+
+      .brand-slogan {
+        font-family: "Orbitron", sans-serif;
+        font-size: 0.6rem;
+        color: #7f8c8d;
+        margin: 5px 0;
+        user-select: none;
+      }
+
+      .name-link {
+        font-family: "Orbitron", sans-serif;
+        font-size: 0.6rem;
+        color: #7f8c8d;
+        margin-top: 5px;
+        user-select: none;
+      }
+
+      .name-link a {
+        font-family: "Orbitron", sans-serif;
+        font-size: 0.6rem;
+        color: #2980b9;
+        text-decoration: none;
+        font-weight: 500;
+        outline: none; /* Remove focus outline */
+        user-select: none; /* Prevent selection */
+      }
+
+      .name-link a:hover {
+        color: #3498db;
+        text-decoration: underline;
+      }
+
+      .footer-text {
+        font-family: "Orbitron", sans-serif;
+        font-size: 0.75rem;
+        color: #7f8c8d;
+        margin: 5px 0;
+        font-weight: 500;
+        user-select: none;
+      }
+
+      #year {
+        font-weight: bold;
+        color: #34495e;
+      }
