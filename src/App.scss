@@ -13,6 +13,11 @@
   width: 100vw;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .intro {
   text-align: center;
 }
@@ -41,7 +46,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
+//test
 .button-86::after,
 .button-86::before {
   content: "";

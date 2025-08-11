@@ -16,7 +16,7 @@ function App() {
         fillColor="#34495e"
       />
       <h3 className="intro">We’re cooking up something amazing! </h3>
-      <button className="button-86">See More On Qirvex™</button>
+      <button className="button-86"><a href="https://qirvex.dev">See More On Qirvex™</a></button>
       <Footer />
     </div>
   );
